@@ -18,8 +18,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18528"
-#!   FME_DOCUMENT_GUID="33eda808-7d67-41e2-9dd8-dccefddccd5a"
-#!   FME_DOCUMENT_PRIORGUID="fa6e3902-df3d-4306-a2ea-8590036ffd6f,e87fb645-59ed-4c57-a73b-be5afb20cf2a,833d3a05-61ca-4a30-bfbf-abae683b58ef,f38b884a-6167-4715-a994-8c945235e2a1,94ad86ec-7055-4b0e-bde7-0146b1021510,a26905a0-fd44-40c5-bad2-587ef2be9c85,2d9c14c0-d814-4968-b103-7809119570c0,87b4f6d9-79b4-4599-a0dd-3cd811c32126,990cd663-e06d-4190-bad1-50e7091ffef8,f970e623-5b4a-452b-87d9-3a0e1c6cdc0c,ba2a90cb-b7e0-4b28-93a3-929ee2da93cd"
+#!   FME_DOCUMENT_GUID="249ab562-8765-423e-9d2c-23d56404e83b"
+#!   FME_DOCUMENT_PRIORGUID="fa6e3902-df3d-4306-a2ea-8590036ffd6f,e87fb645-59ed-4c57-a73b-be5afb20cf2a,833d3a05-61ca-4a30-bfbf-abae683b58ef,f38b884a-6167-4715-a994-8c945235e2a1,94ad86ec-7055-4b0e-bde7-0146b1021510,a26905a0-fd44-40c5-bad2-587ef2be9c85,2d9c14c0-d814-4968-b103-7809119570c0,87b4f6d9-79b4-4599-a0dd-3cd811c32126,990cd663-e06d-4190-bad1-50e7091ffef8,f970e623-5b4a-452b-87d9-3a0e1c6cdc0c,ba2a90cb-b7e0-4b28-93a3-929ee2da93cd,33eda808-7d67-41e2-9dd8-dccefddccd5a"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.1 (20180730 - Build 18528 - WIN64)"
-#!   LAST_SAVE_DATE="2019-03-05T16:24:21"
+#!   LAST_SAVE_DATE="2019-03-05T20:47:02"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,7 +46,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="10687.6 -416.671"
+#!   VIEW_POSITION="14984.5 250.003"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="60"
@@ -112,7 +112,7 @@
 #!   ROLE="WRITER"
 #!   FORMAT="POSTGIS"
 #!   DATASET="$(DestDataset_POSTGIS)"
-#!   KEYWORD="POSTGIS_1"
+#!   KEYWORD="POSTGIS_2"
 #!   MULTI_GEOM_ALLOWED="true"
 #!   ATTR_MAX_LENGTH="63"
 #!   ATTR_CASE="LOWER"
@@ -120,7 +120,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_with_oids NO postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis float8 fme_geometry char(50) fme_text_string char(50) fme_feature_type char(50) postgis_collection_id int4 fme_text_size float8 postgis_type char(50) fme_db_operation char(8) fme_rotation float8 postgis_collection_part_id int4 fme_basename char(50) fme_color char(50) fme_type char(50) fme_sweep_angle float8 fme_start_angle float8 fme_dataset char(50) fme_fill_color char(50) fme_secondary_axis float8"
+#!   EXPOSABLE_ATTRS="fme_primary_axis float8 fme_geometry char(50) fme_text_string char(50) fme_feature_type char(50) postgis_collection_id int4 fme_text_size float8 postgis_type char(50) fme_db_operation char(8) fme_rotation float8 postgis_collection_part_id int4 fme_color char(50) fme_basename char(50) fme_type char(50) fme_sweep_angle float8 fme_start_angle float8 fme_dataset char(50) fme_fill_color char(50) fme_secondary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_with_oids%postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; the_geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -856,9 +856,9 @@
 #!   BOUNDING_RECT="22380.792106410641 -1440.7641515587518 552.015625 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="false"
-#!   KEYWORD="POSTGIS_1"
+#!   KEYWORD="POSTGIS_2"
 #!   PARMS_EDITED="true"
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="name_generated" ATTR_TYPE="varchar(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -7605,8 +7605,8 @@
 #!   IDENTIFIER="270"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="3822.0538113583052 -4995.7998799732868"
-#!   BOUNDING_RECT="3822.0538113583052 -4995.7998799732868 729.015625 71"
+#!   POSITION="3613.7183946708046 -5042.6753487279739"
+#!   BOUNDING_RECT="3613.7183946708046 -5042.6753487279739 729.015625 71"
 #!   ORDER="500000000000109"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -17107,7 +17107,7 @@
 #!   BOUNDING_RECT="20775.20775207752 -1099.8894328115643 -1 -1"
 #!   ORDER="500000000000157"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="18528"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -17135,7 +17135,7 @@
 #!   BOUNDING_RECT="20775.20775207752 -1269.6388703059392 -1 -1"
 #!   ORDER="500000000000158"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="18528"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -17163,7 +17163,7 @@
 #!   BOUNDING_RECT="20775.20775207752 -1407.4304848887516 -1 -1"
 #!   ORDER="500000000000159"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="18528"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -17191,7 +17191,7 @@
 #!   BOUNDING_RECT="20775.20775207752 -1555.6388703059388 -1 -1"
 #!   ORDER="500000000000160"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="18528"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -17219,7 +17219,7 @@
 #!   BOUNDING_RECT="20775.20775207752 -1698.6388703059388 -1 -1"
 #!   ORDER="500000000000161"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="18528"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -18479,7 +18479,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_random_letter2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; name_generated SET_TO &lt;at&gt;Value&lt;openparen&gt;category0&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_number&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_number2&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_random_letter&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_letter2&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_number3&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; name_generated SET_TO &lt;at&gt;Value&lt;openparen&gt;category0&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_number&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_number2&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_random_letter&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_letter2&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_number3&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;_random_number4&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -20536,7 +20536,7 @@
 #!   BOUNDING_RECT="22321.056543898758 -1164.2585265025009 -1 -1"
 #!   ORDER="500000000000172"
 #!   PARMS_EDITED="true"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="18528"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -20564,7 +20564,7 @@
 #!   BOUNDING_RECT="22321.056543898758 -1005.3815938159382 -1 -1"
 #!   ORDER="500000000000163"
 #!   PARMS_EDITED="false"
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   LAST_PARM_EDIT="18528"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -23940,7 +23940,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 27
-GUI IGNORE DestDataset_ESRISHAPE_1,ESRISHAPE_OUT_WRITER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_OUT_ENCODING_ESRISHAPE_1,ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_1,ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_1,ESRISHAPE_OUT_ADVANCED_ESRISHAPE_1,ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_1,ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_1,ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_1,DestDataset_POSTGIS_1,POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_OUT_ADVANCED_POSTGIS_1,POSTGIS_OUT_BULK_COPY_POSTGIS_1,POSTGIS_OUT_START_TRANSACTION_POSTGIS_1,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1,POSTGIS_OUT_BEGIN_SQL_POSTGIS_1,POSTGIS_OUT_END_SQL_POSTGIS_1
+GUI IGNORE DestDataset_ESRISHAPE_1,ESRISHAPE_OUT_WRITER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_OUT_ENCODING_ESRISHAPE_1,ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_1,ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_1,ESRISHAPE_OUT_ADVANCED_ESRISHAPE_1,ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_1,ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_1,ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_1,DestDataset_POSTGIS_2,POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_2,POSTGIS_OUT_ADVANCED_POSTGIS_2,POSTGIS_OUT_BULK_COPY_POSTGIS_2,POSTGIS_OUT_START_TRANSACTION_POSTGIS_2,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2,POSTGIS_OUT_BEGIN_SQL_POSTGIS_2,POSTGIS_OUT_END_SQL_POSTGIS_2
 DEFAULT_MACRO DestDataset_ESRISHAPE C:\Users\Vakarian\Documents\A - Omat\Larpit\Odysseus\shp
 GUI DIRNAME DestDataset_ESRISHAPE Destination Esri Shapefile Folder:
 DEFAULT_MACRO DestDataset_POSTGIS Odysseus-local
@@ -23956,7 +23956,7 @@ MULTI_WRITER_FIRST_WRITER_ID 0
 MULTI_WRITER_TYPE{0} ESRISHAPE
 MULTI_WRITER_KEYWORD{0} ESRISHAPE_1
 MULTI_WRITER_TYPE{1} POSTGIS
-MULTI_WRITER_KEYWORD{1} POSTGIS_1
+MULTI_WRITER_KEYWORD{1} POSTGIS_2
 #! END_WB_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "ESRISHAPE_1"
@@ -24037,59 +24037,59 @@ ESRISHAPE_1_ENCODING $(ESRISHAPE_OUT_ENCODING_ESRISHAPE_1)
 ESRISHAPE_1_DATASET "$(DestDataset_ESRISHAPE_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "POSTGIS_1"
+MACRO WB_KEYWORD "POSTGIS_2"
 #! END_WB_HEADER
-#! START_DEST_HEADER POSTGIS POSTGIS_1
+#! START_DEST_HEADER POSTGIS POSTGIS_2
 #! END_DEST_HEADER
 #! START_WB_HEADER
 DEFAULT_MACRO DestDataset
 INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_POSTGIS_1 $(DestDataset)}         \
+ puts {DEFAULT_MACRO DestDataset_POSTGIS_2 $(DestDataset)}         \
  } ]
 #! END_WB_HEADER
-#! START_DEST_HEADER POSTGIS POSTGIS_1
-DEFAULT_MACRO DestDataset_POSTGIS_1 $(DestDataset_POSTGIS)
-GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS_1 FMT:POSTGIS Connection:
-POSTGIS_1_PLUGIN_MAX_CHANNELS 1
-DEFAULT_MACRO POSTGIS_OUT_STRICT_TEMPORAL_TYPE_HANDLING_POSTGIS_1 Yes
-POSTGIS_1_STRICT_TEMPORAL_TYPE_HANDLING "$(POSTGIS_OUT_STRICT_TEMPORAL_TYPE_HANDLING_POSTGIS_1)"
-DEFAULT_MACRO POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_1 
-GUI OPTIONAL DISCLOSUREGROUP POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_1 POSTGIS_OUT_NAMED_CONNECTION Database Connection
+#! START_DEST_HEADER POSTGIS POSTGIS_2
+DEFAULT_MACRO DestDataset_POSTGIS_2 $(DestDataset_POSTGIS)
+GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS_2 FMT:POSTGIS Connection:
+POSTGIS_2_PLUGIN_MAX_CHANNELS 1
+DEFAULT_MACRO POSTGIS_OUT_STRICT_TEMPORAL_TYPE_HANDLING_POSTGIS_2 Yes
+POSTGIS_2_STRICT_TEMPORAL_TYPE_HANDLING "$(POSTGIS_OUT_STRICT_TEMPORAL_TYPE_HANDLING_POSTGIS_2)"
+DEFAULT_MACRO POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_2 
+GUI OPTIONAL DISCLOSUREGROUP POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_2 POSTGIS_OUT_NAMED_CONNECTION Database Connection
 # ============================================================================
 # Write geometry (planar) or geography (geodetic) column
-DEFAULT_MACRO POSTGIS_OUT_SPATIAL_COLUMN_TYPE_POSTGIS_1 geometry
-POSTGIS_1_SPATIAL_COLUMN_TYPE "$(POSTGIS_OUT_SPATIAL_COLUMN_TYPE_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_OUT_SPATIAL_COLUMN_TYPE_POSTGIS_2 geometry
+POSTGIS_2_SPATIAL_COLUMN_TYPE "$(POSTGIS_OUT_SPATIAL_COLUMN_TYPE_POSTGIS_2)"
 # ============================================================================
 # Default spatial column name
-DEFAULT_MACRO POSTGIS_OUT_SPATIAL_COLUMN_NAME_POSTGIS_1 the_geom
-POSTGIS_1_SPATIAL_COLUMN_NAME "$(POSTGIS_OUT_SPATIAL_COLUMN_NAME_POSTGIS_1)"
-DEFAULT_MACRO POSTGIS_OUT_GENERIC_GEOMETRY_POSTGIS_1 yes
-POSTGIS_1_GENERIC_GEOMETRY "$(POSTGIS_OUT_GENERIC_GEOMETRY_POSTGIS_1)"
-DEFAULT_MACRO POSTGIS_OUT_COORDINATE_SYSTEM_GRANULARITY_POSTGIS_1 FEATURE_TYPE
-POSTGIS_1_COORDINATE_SYSTEM_GRANULARITY "$(POSTGIS_OUT_COORDINATE_SYSTEM_GRANULARITY_POSTGIS_1)"
-DEFAULT_MACRO POSTGIS_OUT_ADVANCED_POSTGIS_1 
-GUI OPTIONAL DISCLOSUREGROUP POSTGIS_OUT_ADVANCED_POSTGIS_1 POSTGIS_OUT_BULK_COPY_POSTGIS_1%POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1%POSTGIS_OUT_START_TRANSACTION_POSTGIS_1%POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1%POSTGIS_OUT_BEGIN_SQL_POSTGIS_1%POSTGIS_OUT_END_SQL_POSTGIS_1 Advanced
-DEFAULT_MACRO POSTGIS_OUT_BULK_COPY_POSTGIS_1 YES
-POSTGIS_1_BULK_COPY "$(POSTGIS_OUT_BULK_COPY_POSTGIS_1)"
-GUI CHOICE POSTGIS_OUT_BULK_COPY_POSTGIS_1 YES%NO Bulk Insert
-DEFAULT_MACRO POSTGIS_OUT_START_TRANSACTION_POSTGIS_1 0
-POSTGIS_1_START_TRANSACTION "$(POSTGIS_OUT_START_TRANSACTION_POSTGIS_1)"
-GUI TEXT POSTGIS_OUT_START_TRANSACTION_POSTGIS_1 Starting Feature:
-DEFAULT_MACRO POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1 1000
-POSTGIS_1_TRANSACTION_INTERVAL "$(POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1)"
-GUI TEXT POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1 Features Per Transaction
-DEFAULT_MACRO POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1 NO
-POSTGIS_1_INSERT_TEXT_GEOMETRY "$(POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1)"
-GUI CHOICE POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1 YES%NO Insert WKT
-DEFAULT_MACRO POSTGIS_OUT_BEGIN_SQL_POSTGIS_1 
-POSTGIS_1_BEGIN_SQL "$(POSTGIS_OUT_BEGIN_SQL_POSTGIS_1)"
-GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGIS_OUT_BEGIN_SQL_POSTGIS_1 MODE,SQL;FORMAT,POSTGIS SQL To Run Before Write
-DEFAULT_MACRO POSTGIS_OUT_END_SQL_POSTGIS_1 
-POSTGIS_1_END_SQL "$(POSTGIS_OUT_END_SQL_POSTGIS_1)"
-GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGIS_OUT_END_SQL_POSTGIS_1 MODE,SQL;FORMAT,POSTGIS SQL To Run After Write
+DEFAULT_MACRO POSTGIS_OUT_SPATIAL_COLUMN_NAME_POSTGIS_2 the_geom
+POSTGIS_2_SPATIAL_COLUMN_NAME "$(POSTGIS_OUT_SPATIAL_COLUMN_NAME_POSTGIS_2)"
+DEFAULT_MACRO POSTGIS_OUT_GENERIC_GEOMETRY_POSTGIS_2 yes
+POSTGIS_2_GENERIC_GEOMETRY "$(POSTGIS_OUT_GENERIC_GEOMETRY_POSTGIS_2)"
+DEFAULT_MACRO POSTGIS_OUT_COORDINATE_SYSTEM_GRANULARITY_POSTGIS_2 FEATURE_TYPE
+POSTGIS_2_COORDINATE_SYSTEM_GRANULARITY "$(POSTGIS_OUT_COORDINATE_SYSTEM_GRANULARITY_POSTGIS_2)"
+DEFAULT_MACRO POSTGIS_OUT_ADVANCED_POSTGIS_2 
+GUI OPTIONAL DISCLOSUREGROUP POSTGIS_OUT_ADVANCED_POSTGIS_2 POSTGIS_OUT_BULK_COPY_POSTGIS_2%POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2%POSTGIS_OUT_START_TRANSACTION_POSTGIS_2%POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2%POSTGIS_OUT_BEGIN_SQL_POSTGIS_2%POSTGIS_OUT_END_SQL_POSTGIS_2 Advanced
+DEFAULT_MACRO POSTGIS_OUT_BULK_COPY_POSTGIS_2 YES
+POSTGIS_2_BULK_COPY "$(POSTGIS_OUT_BULK_COPY_POSTGIS_2)"
+GUI CHOICE POSTGIS_OUT_BULK_COPY_POSTGIS_2 YES%NO Bulk Insert
+DEFAULT_MACRO POSTGIS_OUT_START_TRANSACTION_POSTGIS_2 0
+POSTGIS_2_START_TRANSACTION "$(POSTGIS_OUT_START_TRANSACTION_POSTGIS_2)"
+GUI TEXT POSTGIS_OUT_START_TRANSACTION_POSTGIS_2 Starting Feature:
+DEFAULT_MACRO POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2 1000
+POSTGIS_2_TRANSACTION_INTERVAL "$(POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2)"
+GUI TEXT POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2 Features Per Transaction
+DEFAULT_MACRO POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2 NO
+POSTGIS_2_INSERT_TEXT_GEOMETRY "$(POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2)"
+GUI CHOICE POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2 YES%NO Insert WKT
+DEFAULT_MACRO POSTGIS_OUT_BEGIN_SQL_POSTGIS_2 
+POSTGIS_2_BEGIN_SQL "$(POSTGIS_OUT_BEGIN_SQL_POSTGIS_2)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGIS_OUT_BEGIN_SQL_POSTGIS_2 MODE,SQL;FORMAT,POSTGIS SQL To Run Before Write
+DEFAULT_MACRO POSTGIS_OUT_END_SQL_POSTGIS_2 
+POSTGIS_2_END_SQL "$(POSTGIS_OUT_END_SQL_POSTGIS_2)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGIS_OUT_END_SQL_POSTGIS_2 MODE,SQL;FORMAT,POSTGIS SQL To Run After Write
 # ============================================================================ 
-POSTGIS_1_GENERATE_FME_BUILD_NUM 18528
-POSTGIS_1_DATASET "$(DestDataset_POSTGIS_1)"
+POSTGIS_2_GENERATE_FME_BUILD_NUM 18528
+POSTGIS_2_DATASET "$(DestDataset_POSTGIS_2)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
@@ -24107,7 +24107,7 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
-DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
+DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_2 POSTGIS_2
 # -------------------------------------------------------------------------
 
 ESRISHAPE_1_COORDINATE_SYSTEM EPSG:3857
@@ -24979,8 +24979,8 @@ FACTORY_DEF * TeeFactory FACTORY_NAME Random_plusminusy_<Rejected> INPUT FEATURE
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_2e69112c_ed87_4825_81bb_0bd2073c4ce67_replacer { findText replaceText invalidValue} {     set attrs [split \"plusminusx,plusminusy\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE Random_plusminusy_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_2e69112c_ed87_4825_81bb_0bd2073c4ce67_replacer {0} {-1} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_2e69112c_ed87_4825_81bb_0bd2073c4ce626_replacer { findText replaceText invalidValue} {     set attrs [split \"plusminusx,plusminusy\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE Random_plusminusy_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_2e69112c_ed87_4825_81bb_0bd2073c4ce626_replacer {0} {-1} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "x3" "SET_TO" "<at>sum<openparen><at>Value<openparen>x<closeparen><comma><at>mult<openparen><at>mult<openparen><at>Value<openparen>x2<closeparen><comma><at>Value<openparen>_copynum<closeparen><closeparen><comma><at>Value<openparen>plusminusx<closeparen><closeparen><closeparen>" }      ATTR_ACTION { "" "y3" "SET_TO" "<at>sum<openparen><at>Value<openparen>y<closeparen><comma><at>mult<openparen><at>mult<openparen><at>Value<openparen>y2<closeparen><comma><at>Value<openparen>_copynum<closeparen><closeparen><comma><at>Value<openparen>plusminusy<closeparen><closeparen><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator__OUTPUT
 # -------------------------------------------------------------------------
@@ -25325,8 +25325,8 @@ FACTORY_DEF * TeeFactory FACTORY_NAME Random_plusminusy_2_<Rejected> INPUT FEATU
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_2_10afb83f_517f_4a64_a332_a7363757800b7_replacer { findText replaceText invalidValue} {     set attrs [split \"plusminusx,plusminusy\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE Random_plusminusy_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_10afb83f_517f_4a64_a332_a7363757800b7_replacer {0} {-1} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_2_10afb83f_517f_4a64_a332_a7363757800b26_replacer { findText replaceText invalidValue} {     set attrs [split \"plusminusx,plusminusy\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE Random_plusminusy_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_10afb83f_517f_4a64_a332_a7363757800b26_replacer {0} {-1} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator__2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE StringReplacer_2_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "x3" "SET_TO" "<at>sum<openparen><at>Value<openparen>x<closeparen><comma><at>mult<openparen><at>mult<openparen><at>Value<openparen>x2<closeparen><comma><at>Value<openparen>_copynum<closeparen><closeparen><comma><at>Value<openparen>plusminusx<closeparen><closeparen><closeparen>" }      ATTR_ACTION { "" "y3" "SET_TO" "<at>sum<openparen><at>Value<openparen>y<closeparen><comma><at>mult<openparen><at>mult<openparen><at>Value<openparen>y2<closeparen><comma><at>Value<openparen>_copynum<closeparen><closeparen><comma><at>Value<openparen>plusminusy<closeparen><closeparen><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator__2_OUTPUT
 # -------------------------------------------------------------------------
@@ -25501,8 +25501,8 @@ FACTORY_DEF * TeeFactory FACTORY_NAME Random_atm_pressure_2_<Rejected> INPUT FEA
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_16    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_2_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "habitable_zone" "SET_TO" "<at>Value<openparen>habitable_zone<closeparen><space>AU" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_16_OUTPUT
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_ea68ffd3_13b0_42f8_bebe_43f05824c1427_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Tester_PASSED    INPUT  FEATURE_TYPE AttributeCreator_16_OUTPUT    INPUT  FEATURE_TYPE Tester_13_PASSED    INPUT  FEATURE_TYPE Tester_14_PASSED    INPUT  FEATURE_TYPE AttributeCreator_39_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,radius,category,satellite_of,orbital_period,category0,gs-size,gs-size_scale,atm_pressure,category1,name_generated,celestial_body,gs-color_halo,gs-size_halo,habitable_zone,gs-rotation,distance,temperature,gs-color,mass,atmosphere,gs-fill_opaci,name_known,rotation,orbiter_count,fme_pcre_match,"^fme_$(AttributeKeeper_ea68ffd3_13b0_42f8_bebe_43f05824c1427_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_ea68ffd3_13b0_42f8_bebe_43f05824c14226_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Tester_PASSED    INPUT  FEATURE_TYPE AttributeCreator_16_OUTPUT    INPUT  FEATURE_TYPE Tester_13_PASSED    INPUT  FEATURE_TYPE Tester_14_PASSED    INPUT  FEATURE_TYPE AttributeCreator_39_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,radius,category,satellite_of,orbital_period,category0,gs-size,gs-size_scale,atm_pressure,category1,name_generated,celestial_body,gs-color_halo,gs-size_halo,habitable_zone,gs-rotation,distance,temperature,gs-color,mass,atmosphere,gs-fill_opaci,name_known,rotation,orbiter_count,fme_pcre_match,"^fme_$(AttributeKeeper_ea68ffd3_13b0_42f8_bebe_43f05824c14226_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_19    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>celestial_body<closeparen>,Tester_19) = sun ENCODED TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>celestial_body<closeparen>,Tester_19) = asteroid ENCODED TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>celestial_body<closeparen>,Tester_19) = comet ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_19_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_19_FAILED
 # -------------------------------------------------------------------------
@@ -25589,55 +25589,35 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 <lt>UNFILTERED<gt> Tr
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 star Splitter"   INPUT FEATURE_TYPE AttributeFilter_2_star   OUTPUT FEATURE_TYPE AttributeFilter_2_star_0_aQlqf5N1Rys=   OUTPUT FEATURE_TYPE AttributeFilter_2_star_1_KJZ9HmBeXCA=
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 planet Splitter"   INPUT FEATURE_TYPE AttributeFilter_2_planet   OUTPUT FEATURE_TYPE AttributeFilter_2_planet_0_Q5EJLX6Iuzo=   OUTPUT FEATURE_TYPE AttributeFilter_2_planet_1_HV85ospTkRY=
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_36    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_natural<space>satellite    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "name_generated" "SET_TO" "<at>Value<openparen>category0<closeparen><at>Value<openparen>_random_number<closeparen><at>Value<openparen>_random_number2<closeparen>-<at>Value<openparen>_random_letter<closeparen><at>Value<openparen>_random_letter2<closeparen><at>Value<openparen>_random_number3<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_36_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_36    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_natural<space>satellite    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "name_generated" "SET_TO" "<at>Value<openparen>category0<closeparen><at>Value<openparen>_random_number<closeparen><at>Value<openparen>_random_number2<closeparen>-<at>Value<openparen>_random_letter<closeparen><at>Value<openparen>_random_letter2<closeparen><at>Value<openparen>_random_number3<closeparen><at>Value<openparen>_random_number4<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_36_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_36 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_36_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_36_OUTPUT_0_X0hmLfs3Q4I=   OUTPUT FEATURE_TYPE AttributeCreator_36_OUTPUT_1_O6HGglCekdo=
 # -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeFilter_2_moon} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AttributeFilter_2_moon_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeCreator_36_OUTPUT_0_X0hmLfs3Q4I=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AttributeFilter_2_moon }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeFilter_2_moon_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA name_generated,varchar<openparen>255<closeparen>,surface_gravity,varchar<openparen>255<closeparen>,description,varchar<openparen>255<closeparen>,ghligh,varchar<openparen>255<closeparen>,ring_system,varchar<openparen>255<closeparen>,gs-size,varchar<openparen>255<closeparen>,gs-color_halo,varchar<openparen>255<closeparen>,mass,varchar<openparen>255<closeparen>,rotation,varchar<openparen>255<closeparen>,name_known,varchar<openparen>255<closeparen>,category,varchar<openparen>255<closeparen>,distance,varchar<openparen>255<closeparen>,category1,varchar<openparen>255<closeparen>,category0,varchar<openparen>255<closeparen>,gs-color,varchar<openparen>255<closeparen>,celestial_body,varchar<openparen>255<closeparen>,satellite_of,varchar<openparen>255<closeparen>,radius,varchar<openparen>255<closeparen>,habitable_zone,varchar<openparen>255<closeparen>,atmosphere,varchar<openparen>255<closeparen>,gs-rotation,varchar<openparen>255<closeparen>,temperature,varchar<openparen>255<closeparen>,orbital_period,varchar<openparen>255<closeparen>,gs-size_scale,varchar<openparen>255<closeparen>,gs-size_halo,varchar<openparen>255<closeparen>,gs-fill_opaci,varchar<openparen>255<closeparen>,orbiter_count,varchar<openparen>255<closeparen>,atm_pressure,varchar<openparen>255<closeparen>,_random_number,varchar<openparen>255<closeparen>,_random_number2,varchar<openparen>255<closeparen>,_random_letter,varchar<openparen>255<closeparen>,_random_number3,varchar<openparen>255<closeparen>,_random_number4,varchar<openparen>255<closeparen>,_random_letter2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2_moon (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_36_OUTPUT_0_X0hmLfs3Q4I=
 # -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeFilter_2_planet} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AttributeFilter_2_planet_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_planet_0_Q5EJLX6Iuzo=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AttributeFilter_2_planet }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeFilter_2_planet_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA surface_gravity,varchar<openparen>255<closeparen>,description,varchar<openparen>255<closeparen>,ghligh,varchar<openparen>255<closeparen>,ring_system,varchar<openparen>255<closeparen>,gs-size,varchar<openparen>255<closeparen>,gs-color_halo,varchar<openparen>255<closeparen>,mass,varchar<openparen>255<closeparen>,rotation,varchar<openparen>255<closeparen>,name_known,varchar<openparen>255<closeparen>,category,varchar<openparen>255<closeparen>,distance,varchar<openparen>255<closeparen>,category1,varchar<openparen>255<closeparen>,category0,varchar<openparen>255<closeparen>,gs-color,varchar<openparen>255<closeparen>,celestial_body,varchar<openparen>255<closeparen>,satellite_of,varchar<openparen>255<closeparen>,name_generated,varchar<openparen>255<closeparen>,radius,varchar<openparen>255<closeparen>,habitable_zone,varchar<openparen>255<closeparen>,atmosphere,varchar<openparen>255<closeparen>,gs-rotation,varchar<openparen>255<closeparen>,temperature,varchar<openparen>255<closeparen>,orbital_period,varchar<openparen>255<closeparen>,gs-size_scale,varchar<openparen>255<closeparen>,gs-size_halo,varchar<openparen>255<closeparen>,gs-fill_opaci,varchar<openparen>255<closeparen>,orbiter_count,varchar<openparen>255<closeparen>,atm_pressure,varchar<openparen>255<closeparen>,_random_number,varchar<openparen>255<closeparen>,_random_number2,varchar<openparen>255<closeparen>,_random_letter,varchar<openparen>255<closeparen>,_random_number3,varchar<openparen>255<closeparen>,_random_number4,varchar<openparen>255<closeparen>,_random_letter2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2_planet (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeFilter_2_planet_0_Q5EJLX6Iuzo=
 # -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeFilter_2_star} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AttributeFilter_2_star_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_star_0_aQlqf5N1Rys=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AttributeFilter_2_star }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeFilter_2_star_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA surface_gravity,varchar<openparen>255<closeparen>,description,varchar<openparen>255<closeparen>,ghligh,varchar<openparen>255<closeparen>,ring_system,varchar<openparen>255<closeparen>,gs-size,varchar<openparen>255<closeparen>,gs-color_halo,varchar<openparen>255<closeparen>,mass,varchar<openparen>255<closeparen>,rotation,varchar<openparen>255<closeparen>,name_known,varchar<openparen>255<closeparen>,category,varchar<openparen>255<closeparen>,distance,varchar<openparen>255<closeparen>,category1,varchar<openparen>255<closeparen>,category0,varchar<openparen>255<closeparen>,gs-color,varchar<openparen>255<closeparen>,celestial_body,varchar<openparen>255<closeparen>,satellite_of,varchar<openparen>255<closeparen>,name_generated,varchar<openparen>255<closeparen>,radius,varchar<openparen>255<closeparen>,habitable_zone,varchar<openparen>255<closeparen>,atmosphere,varchar<openparen>255<closeparen>,gs-rotation,varchar<openparen>255<closeparen>,temperature,varchar<openparen>255<closeparen>,orbital_period,varchar<openparen>255<closeparen>,gs-size_scale,varchar<openparen>255<closeparen>,gs-size_halo,varchar<openparen>255<closeparen>,gs-fill_opaci,varchar<openparen>255<closeparen>,orbiter_count,varchar<openparen>255<closeparen>,atm_pressure,varchar<openparen>255<closeparen>,_random_number,varchar<openparen>255<closeparen>,_random_number2,varchar<openparen>255<closeparen>,_random_letter,varchar<openparen>255<closeparen>,_random_number3,varchar<openparen>255<closeparen>,_random_number4,varchar<openparen>255<closeparen>,_random_letter2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2_star (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeFilter_2_star_0_aQlqf5N1Rys=
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_33    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_asteroid    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "name_generated" "SET_TO" "A<at>Value<openparen>category0<closeparen>-<at>Value<openparen>_random_letter<closeparen><at>Value<openparen>_random_letter2<closeparen><at>Value<openparen>_random_number<closeparen><at>Value<openparen>_random_number2<closeparen><at>Value<openparen>_random_number3<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_33_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_33 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_33_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_33_OUTPUT_0_5AwhjJMC2K0=   OUTPUT FEATURE_TYPE AttributeCreator_33_OUTPUT_1_4+RHdOuWBk4=
 # -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2_asteroid (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_33_OUTPUT_0_5AwhjJMC2K0=
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_32    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_comet    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "name_generated" "SET_TO" "C<at>Value<openparen>category0<closeparen>-<at>Value<openparen>_random_letter<closeparen><at>Value<openparen>_random_letter2<closeparen><at>Value<openparen>_random_number<closeparen><at>Value<openparen>_random_number2<closeparen><at>Value<openparen>_random_number3<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_32_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_32 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_32_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_32_OUTPUT_0_K8/RPEEfJbg=   OUTPUT FEATURE_TYPE AttributeCreator_32_OUTPUT_1_xbg40+TUuBg=
+# -------------------------------------------------------------------------
+Tcl2 proc NullAttributeMapper_a8babccb_01bc_4aba_aa30_bf300408b50a26_null_replacer { otherValue newValue regExp } {    set attrs [split {gs-size_scale habitable_zone orbital_period celestial_body mass gs-size orbiter_count name_known radius gs-rotation ring_system gs-size_halo rotation atmosphere gs-color atm_pressure temperature category distance gs-fill_opaci name_generated gs-color_halo} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {EMPTY MISSINGATTR}] != -1} {                 set act {SETNULL};             };          }          elseif { [string first {EMPTY} {EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETNULL};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETNULL};          }          elseif { $decodedRegExp != {} }          {             set results [FME_GetRegex $decodedRegExp $attrVal];             if {[llength [lindex $results 0]] > 0}             {                set act {SETNULL};             }          };      }      elseif {[string first {MISSINGATTR} {EMPTY MISSINGATTR}] != -1} {             set act {SETNULL};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE AttributeCreator_33_OUTPUT_1_4+RHdOuWBk4=    INPUT  FEATURE_TYPE AttributeCreator_36_OUTPUT_1_O6HGglCekdo=    INPUT  FEATURE_TYPE AttributeCreator_32_OUTPUT_1_xbg40+TUuBg=    INPUT  FEATURE_TYPE AttributeFilter_2_star_1_KJZ9HmBeXCA=    INPUT  FEATURE_TYPE AttributeFilter_2_planet_1_HV85ospTkRY=    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_a8babccb_01bc_4aba_aa30_bf300408b50a26_null_replacer {} {<Unused>} {}")
+# -------------------------------------------------------------------------
+INCLUDE [    set macroLine "MACRO AttributeKeeper_3_221afd5a_4fdc_40ba_932c_f2a7e9765d8026_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE NullAttributeMapper_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,radius,category,satellite_of,orbital_period,ring_system,gs-size,gs-size_scale,atm_pressure,name_generated,celestial_body,gs-color_halo,gs-size_halo,habitable_zone,gs-rotation,distance,temperature,gs-color,mass,atmosphere,gs-fill_opaci,name_known,rotation,description,surface_gravity,orbiter_count,fme_pcre_match,"^fme_$(AttributeKeeper_3_221afd5a_4fdc_40ba_932c_f2a7e9765d8026_LIST_EXP)")         }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} DuplicateRemoverFactory    FACTORY_NAME DuplicateFilter_4    COMMAND_PARM_EVALUATION SINGLE_PASS    SUPPORTS_FEATURE_TABLES    INPUT  FEATURE_TYPE AttributeKeeper_3_OUTPUT    KEY_ATTRIBUTES { name_generated }    INPUT_IS_ORDERED NO    OUTPUT DUPLICATE FEATURE_TYPE DuplicateFilter_4_DUPLICATE    OUTPUT UNIQUE FEATURE_TYPE DuplicateFilter_4_UNIQUE
+# -------------------------------------------------------------------------
 # Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
 DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeFilter_2_asteroid} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AttributeFilter_2_asteroid_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeCreator_33_OUTPUT_0_5AwhjJMC2K0=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AttributeFilter_2_asteroid }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {DuplicateFilter_4_Duplicate} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME DuplicateFilter_4_Duplicate_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE DuplicateFilter_4_DUPLICATE    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { DuplicateFilter_4_Duplicate }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
@@ -25645,20 +25625,7 @@ DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeFilter_2_asteroid_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA name_generated,varchar<openparen>255<closeparen>,surface_gravity,varchar<openparen>255<closeparen>,description,varchar<openparen>255<closeparen>,ghligh,varchar<openparen>255<closeparen>,ring_system,varchar<openparen>255<closeparen>,gs-size,varchar<openparen>255<closeparen>,gs-color_halo,varchar<openparen>255<closeparen>,mass,varchar<openparen>255<closeparen>,rotation,varchar<openparen>255<closeparen>,name_known,varchar<openparen>255<closeparen>,category,varchar<openparen>255<closeparen>,distance,varchar<openparen>255<closeparen>,category1,varchar<openparen>255<closeparen>,category0,varchar<openparen>255<closeparen>,gs-color,varchar<openparen>255<closeparen>,celestial_body,varchar<openparen>255<closeparen>,satellite_of,varchar<openparen>255<closeparen>,radius,varchar<openparen>255<closeparen>,habitable_zone,varchar<openparen>255<closeparen>,atmosphere,varchar<openparen>255<closeparen>,gs-rotation,varchar<openparen>255<closeparen>,temperature,varchar<openparen>255<closeparen>,orbital_period,varchar<openparen>255<closeparen>,gs-size_scale,varchar<openparen>255<closeparen>,gs-size_halo,varchar<openparen>255<closeparen>,gs-fill_opaci,varchar<openparen>255<closeparen>,orbiter_count,varchar<openparen>255<closeparen>,atm_pressure,varchar<openparen>255<closeparen>,_random_number,varchar<openparen>255<closeparen>,_random_number2,varchar<openparen>255<closeparen>,_random_letter,varchar<openparen>255<closeparen>,_random_number3,varchar<openparen>255<closeparen>,_random_number4,varchar<openparen>255<closeparen>,_random_letter2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_32    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_comet    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "name_generated" "SET_TO" "C<at>Value<openparen>category0<closeparen>-<at>Value<openparen>_random_letter<closeparen><at>Value<openparen>_random_letter2<closeparen><at>Value<openparen>_random_number<closeparen><at>Value<openparen>_random_number2<closeparen><at>Value<openparen>_random_number3<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_32_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_32 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_32_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_32_OUTPUT_0_K8/RPEEfJbg=   OUTPUT FEATURE_TYPE AttributeCreator_32_OUTPUT_1_xbg40+TUuBg=
-# -------------------------------------------------------------------------
-Tcl2 proc NullAttributeMapper_a8babccb_01bc_4aba_aa30_bf300408b50a7_null_replacer { otherValue newValue regExp } {    set attrs [split {gs-size_scale habitable_zone orbital_period celestial_body mass gs-size orbiter_count name_known radius gs-rotation ring_system gs-size_halo rotation atmosphere gs-color atm_pressure temperature category distance gs-fill_opaci name_generated gs-color_halo} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {EMPTY MISSINGATTR}] != -1} {                 set act {SETNULL};             };          }          elseif { [string first {EMPTY} {EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETNULL};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETNULL};          }          elseif { $decodedRegExp != {} }          {             set results [FME_GetRegex $decodedRegExp $attrVal];             if {[llength [lindex $results 0]] > 0}             {                set act {SETNULL};             }          };      }      elseif {[string first {MISSINGATTR} {EMPTY MISSINGATTR}] != -1} {             set act {SETNULL};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE AttributeCreator_33_OUTPUT_1_4+RHdOuWBk4=    INPUT  FEATURE_TYPE AttributeCreator_36_OUTPUT_1_O6HGglCekdo=    INPUT  FEATURE_TYPE AttributeCreator_32_OUTPUT_1_xbg40+TUuBg=    INPUT  FEATURE_TYPE AttributeFilter_2_star_1_KJZ9HmBeXCA=    INPUT  FEATURE_TYPE AttributeFilter_2_planet_1_HV85ospTkRY=    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_a8babccb_01bc_4aba_aa30_bf300408b50a7_null_replacer {} {<Unused>} {}")
-# -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_3_221afd5a_4fdc_40ba_932c_f2a7e9765d807_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE NullAttributeMapper_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,radius,category,satellite_of,orbital_period,ring_system,gs-size,gs-size_scale,atm_pressure,name_generated,celestial_body,gs-color_halo,gs-size_halo,habitable_zone,gs-rotation,distance,temperature,gs-color,mass,atmosphere,gs-fill_opaci,name_known,rotation,description,surface_gravity,orbiter_count,fme_pcre_match,"^fme_$(AttributeKeeper_3_221afd5a_4fdc_40ba_932c_f2a7e9765d807_LIST_EXP)")         }
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} DuplicateRemoverFactory    FACTORY_NAME DuplicateFilter_4    COMMAND_PARM_EVALUATION SINGLE_PASS    SUPPORTS_FEATURE_TABLES    INPUT  FEATURE_TYPE AttributeKeeper_3_OUTPUT    KEY_ATTRIBUTES { name_generated }    INPUT_IS_ORDERED NO    OUTPUT DUPLICATE FEATURE_TYPE DuplicateFilter_4_DUPLICATE    OUTPUT UNIQUE FEATURE_TYPE DuplicateFilter_4_UNIQUE
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "DuplicateFilter_4_Duplicate (Disabled) Nuker"   INPUT FEATURE_TYPE DuplicateFilter_4_DUPLICATE
+FACTORY_DEF * RecorderFactory    FACTORY_NAME DuplicateFilter_4_Duplicate_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA name_generated,varchar<openparen>255<closeparen>,surface_gravity,varchar<openparen>255<closeparen>,description,varchar<openparen>255<closeparen>,ring_system,varchar<openparen>255<closeparen>,gs-size,varchar<openparen>255<closeparen>,gs-color_halo,varchar<openparen>255<closeparen>,mass,varchar<openparen>255<closeparen>,rotation,varchar<openparen>255<closeparen>,name_known,varchar<openparen>255<closeparen>,category,varchar<openparen>255<closeparen>,distance,varchar<openparen>255<closeparen>,gs-color,varchar<openparen>255<closeparen>,celestial_body,varchar<openparen>255<closeparen>,satellite_of,varchar<openparen>255<closeparen>,radius,varchar<openparen>255<closeparen>,habitable_zone,varchar<openparen>255<closeparen>,atmosphere,varchar<openparen>255<closeparen>,gs-rotation,varchar<openparen>255<closeparen>,temperature,varchar<openparen>255<closeparen>,orbital_period,varchar<openparen>255<closeparen>,gs-size_scale,varchar<openparen>255<closeparen>,gs-size_halo,varchar<openparen>255<closeparen>,gs-fill_opaci,varchar<openparen>255<closeparen>,orbiter_count,varchar<openparen>255<closeparen>,atm_pressure,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE DuplicateFilter_4_UNIQUE    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "gs-size" "gs_size" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "gs-size_scale" "gs_size_scale" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "gs-size_halo" "gs_size_halo" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "gs-color" "gs_color" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "gs-color_halo" "gs_color_halo" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "gs-fill_opaci" "gs_fill_opacity" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "gs-rotation" "gs_rotation" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "" "is_scanned" "0" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
 # -------------------------------------------------------------------------
@@ -25673,38 +25640,16 @@ INCLUDE [ if { {no} == {no} } { puts {MACRO casemac -nocase}} ]
 Tcl2 proc Ring_system_replace {} {     FME_SetAttribute {"ring_system"} [string map $(casemac) [FME_DecodeText {"Yes<space>1<lf>No<space><space>0"}] [FME_GetAttribute {"ring_system"}]]     }
 FACTORY_DEF * TeeFactory    FACTORY_NAME Ring_system    INPUT  FEATURE_TYPE AttributeRounder_2_OUTPUT    OUTPUT FEATURE_TYPE Ring_system_OUTPUT         @Tcl2(Ring_system_replace)
 # -------------------------------------------------------------------------
-Tcl2 proc AttributeTrimmer_93580047_9f0f_4b21_80a2_b05ae2a1fe3f7_trimmer { trimChars} {    set attrs [split {gs_size} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trim $attrVal];         } else {             set result [string trim $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trim} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trim} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE Ring_system_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_93580047_9f0f_4b21_80a2_b05ae2a1fe3f7_trimmer {<lf>} ")
+Tcl2 proc AttributeTrimmer_93580047_9f0f_4b21_80a2_b05ae2a1fe3f26_trimmer { trimChars} {    set attrs [split {gs_size} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trim $attrVal];         } else {             set result [string trim $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trim} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trim} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE Ring_system_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_93580047_9f0f_4b21_80a2_b05ae2a1fe3f26_trimmer {<lf>} ")
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeTrimmer OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeTrimmer_OUTPUT   OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT_0_G1KHm0A/VKs=   OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT_1_Xgx6tZfg5vo=
 # -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {All} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME All_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeTrimmer_OUTPUT_1_Xgx6tZfg5vo=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { All }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME All_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA name_generated,varchar<openparen>255<closeparen>,surface_gravity,varchar<openparen>255<closeparen>,description,varchar<openparen>255<closeparen>,ring_system,varchar<openparen>255<closeparen>,distance,varchar<openparen>255<closeparen>,radius,varchar<openparen>255<closeparen>,mass,varchar<openparen>255<closeparen>,habitable_zone,varchar<openparen>255<closeparen>,name_known,varchar<openparen>255<closeparen>,celestial_body,varchar<openparen>255<closeparen>,atmosphere,varchar<openparen>255<closeparen>,satellite_of,varchar<openparen>255<closeparen>,category,varchar<openparen>255<closeparen>,temperature,varchar<openparen>255<closeparen>,orbital_period,varchar<openparen>255<closeparen>,rotation,varchar<openparen>255<closeparen>,orbiter_count,varchar<openparen>255<closeparen>,atm_pressure,varchar<openparen>255<closeparen>,gs_size,varchar<openparen>255<closeparen>,gs_size_scale,varchar<openparen>255<closeparen>,gs_size_halo,varchar<openparen>255<closeparen>,gs_color,varchar<openparen>255<closeparen>,gs_color_halo,varchar<openparen>255<closeparen>,gs_fill_opacity,varchar<openparen>255<closeparen>,gs_rotation,varchar<openparen>255<closeparen>,is_scanned,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory   FACTORY_NAME "All (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeTrimmer_OUTPUT_1_Xgx6tZfg5vo=
 # -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeFilter_2_comet} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AttributeFilter_2_comet_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeCreator_32_OUTPUT_0_K8/RPEEfJbg=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AttributeFilter_2_comet }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeFilter_2_comet_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA name_generated,varchar<openparen>255<closeparen>,surface_gravity,varchar<openparen>255<closeparen>,description,varchar<openparen>255<closeparen>,ghligh,varchar<openparen>255<closeparen>,ring_system,varchar<openparen>255<closeparen>,gs-size,varchar<openparen>255<closeparen>,gs-color_halo,varchar<openparen>255<closeparen>,mass,varchar<openparen>255<closeparen>,rotation,varchar<openparen>255<closeparen>,name_known,varchar<openparen>255<closeparen>,category,varchar<openparen>255<closeparen>,distance,varchar<openparen>255<closeparen>,category1,varchar<openparen>255<closeparen>,category0,varchar<openparen>255<closeparen>,gs-color,varchar<openparen>255<closeparen>,celestial_body,varchar<openparen>255<closeparen>,satellite_of,varchar<openparen>255<closeparen>,radius,varchar<openparen>255<closeparen>,habitable_zone,varchar<openparen>255<closeparen>,atmosphere,varchar<openparen>255<closeparen>,gs-rotation,varchar<openparen>255<closeparen>,temperature,varchar<openparen>255<closeparen>,orbital_period,varchar<openparen>255<closeparen>,gs-size_scale,varchar<openparen>255<closeparen>,gs-size_halo,varchar<openparen>255<closeparen>,gs-fill_opaci,varchar<openparen>255<closeparen>,orbiter_count,varchar<openparen>255<closeparen>,atm_pressure,varchar<openparen>255<closeparen>,_random_number,varchar<openparen>255<closeparen>,_random_number2,varchar<openparen>255<closeparen>,_random_letter,varchar<openparen>255<closeparen>,_random_number3,varchar<openparen>255<closeparen>,_random_number4,varchar<openparen>255<closeparen>,_random_letter2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2_comet (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_32_OUTPUT_0_K8/RPEEfJbg=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeTrimmer_OUTPUT_0_G1KHm0A/VKs= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,__wb_out_feat_type__,__nuke_me__ GEOMETRY    ROUTE FME_GENERIC AttributeKeeper_2_OUTPUT_0_muAz4GqwTdk= TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ COORDINATE_SYSTEM EPSG:3857 GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeTrimmer_OUTPUT_0_G1KHm0A/VKs= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>starmap_object<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeKeeper_2_OUTPUT_0_muAz4GqwTdk= TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ COORDINATE_SYSTEM EPSG:3857 GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
@@ -25713,3 +25658,5 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYP
 
 FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
 FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__
+# -------------------------------------------------------------------------
+POSTGIS_2_DEF starmap_object   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geometry   postgis_spatial_column       the_geom   postgis_srid                 3857   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   name_generated               varchar(200)   surface_gravity              float8   description                  text   ring_system                  bool   distance                     float8   radius                       int8   mass                         numeric(35,0)   habitable_zone               varchar(200)   name_known                   varchar(200)   celestial_body               varchar(200)   atmosphere                   varchar(255)   satellite_of                 varchar(200)   category                     varchar(200)   temperature                  int8   orbital_period               float8   rotation                     float8   orbiter_count                int8   atm_pressure                 float8   gs_size                      float4   gs_size_scale                float4   gs_size_halo                 float4   gs_color                     varchar(200)   gs_color_halo                varchar(200)   gs_fill_opacity              float4   gs_rotation                  int8   is_scanned                   bool
