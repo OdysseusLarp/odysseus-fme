@@ -39,6 +39,7 @@ Contains files related to generating starmap with FME
 * comets can be any color and any size. About 5 different versions.
 
 ### planets	
+* All planets can have ringsystem around them (randomized)
 * CH, #d00b0b, Chthonian planet, An extrasolar planet that orbits close to its parent star. Most Chthonian planets are expected to be gas giants that had their atmospheres stripped away, leaving their cores.
 * CA, #6d4631, Carbon planet, A theoretical type of terrestrial planet that could form if protoplanetary discs are carbon-rich and oxygen-poor. 
 * CO, #878685, Coreless planet, A theoretical type of planet that has undergone planetary differentiation but has no metallic core. It is not the same as a hollow Earth.
